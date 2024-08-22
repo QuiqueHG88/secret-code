@@ -1,0 +1,105 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #20284d;
+    padding: 0;
+    margin: 0;
+}
+
+
+.container{
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    width: 800px;
+    height: 700px;
+    margin: 100px auto;
+    border-radius: 40px;
+    box-shadow: 0 1em 3em rgb(27,27,28 0.2);
+    /* background-color: #2148a2; */
+    background-color: #122649;
+
+}
+
+.container:hover{
+    box-shadow: none;
+}
+.container h1{
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 50px;
+}
+
+.container .box{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    align-items: center;
+
+}
+
+.container .box .inputBox textarea{
+    text-align: left;
+    display: flex;
+    width: 590px;
+    overflow-x: auto;
+    padding: 20px 0 2em 15px;
+    resize: none;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    margin-top: 20px;
+    margin-left: 100px;
+    font-size: 18px;
+    color: #fff;
+    background-color: rgba(33, 33, 34, 0.287);
+    
+}
+
+.container .box .inputBox input:hover{
+    border: solid 1px #fff;
+}
+
+.container .box .button-container{
+    display: flex;
+    flex-direction: row;;
+    width: 600px;
+    margin-left: 100px;
+    margin-top: 20px;
+    justify-content: space-between;
+
+}
+
+.container .box .inputBox button{
+    padding: 10px;
+    width: 45%;
+    color: #fff;
+    border: none;
+    background-color: #4440d2;
+    background-color: #3935ad;
+    border-radius: 20px;
+    font-size: 18px;
+}
+
+.container .box .inputBox .button-container button:hover{
+    background-color: #4440d2;
+    border: 1px solid #fff;
+}
+
+.container .box .inputBox .h2-container{
+    display: flex;
+    text-align: center;
+    margin-left: 100px;
+    margin-top: 60px;
+}
+
+.container .box .inputBox .h2-container h2{
+    font-size: 30px;
+    color: #fff;
+    
+}
